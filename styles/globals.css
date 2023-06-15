@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+  body {
+    @apply bg-tan;
+  }
+}
+
+@layer components {
+  .bg-tan {
+    background-color: #292929;
+  }
+} */
