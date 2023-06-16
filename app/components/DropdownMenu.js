@@ -18,7 +18,7 @@ const DropdownMenu = () => {
           <div className={`w-6 h-0.5 bg-black mb-1 transition-all duration-300 ease-in-out ${isOpen && 'transform translate-x-2'}`}></div>
           <div className={`w-6 h-0.5 bg-black transition-all duration-300 ease-in-out ${isOpen && 'transform -translate-x-2'}`}></div>
         </button>
-        <div className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-64' : 'max-h-0'} pt-2 font-plex`}>
+        <div className={"overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-64' : 'max-h-0'} pt-2 font-plex"}>
           {router.pathname !== '/solas' && (
             <div className='py-1'>
               <Link href="/" className='border border-black rounded-lg px-1 py-0 bg-transparent text-black inline-block' onClick={toggleMenu}>What's Solas?</Link>
