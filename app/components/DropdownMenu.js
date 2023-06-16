@@ -14,7 +14,7 @@ const DropdownMenu = () => {
   
     return (
       <div>
-        <button onClick={toggleMenu} className="flex flex-col items-center mt-2">
+        <button onClick={toggleMenu} className="flex flex-col items-center mt-2 ml-2">
           <div className={`w-6 h-0.5 bg-black mb-1 transition-all duration-300 ease-in-out ${isOpen && 'transform translate-x-2'}`}></div>
           <div className={`w-6 h-0.5 bg-black transition-all duration-300 ease-in-out ${isOpen && 'transform -translate-x-2'}`}></div>
         </button>

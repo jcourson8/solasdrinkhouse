@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className='bg-lightTan'>
       <body className={`${inter.variable} ${ibm_plex_mono.variable}`}>
           <div className='text-dark mx-auto px-4 pt-4 bg-lightTan w-full'>
             <div><p className="text-4xl font-plex italic">THANKS FOR</p></div>
