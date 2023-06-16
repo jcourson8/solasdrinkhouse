@@ -31,8 +31,14 @@ module.exports = {
         lightTan: '#fffaf5',
         dark: '#292929' // replace this with the hex code of your desired color
       },
+      transitionDuration: {
+        '4000': '4000ms',
+        '5000': '5000ms',
+        // Add more values as needed
+      },
       fontFamily: {
-        'plex-mono': ['IBM Plex Mono', 'monospace'],
+        sans: ['var(--font-inter)'],
+        plex: ['var(--font-plex)'],
       },
     },
   },
