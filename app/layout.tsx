@@ -1,6 +1,7 @@
 import './globals.css'
 import { Inter, IBM_Plex_Mono } from 'next/font/google'
 import DropdownMenu from './components/DropdownMenu'
+import Link from 'next/link'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -35,6 +36,9 @@ export default function RootLayout({
             <DropdownMenu />
           </div>
         {children}
+        <div className='bg-lightTan justify-center text-center p-4'>
+          <Link href="https://www.instagram.com/solasdrinkhouse/" className=' border border-black rounded-lg p-2 py-0 bg-transparent text-black inline-block font-plex'>Instagram</Link>
+        </div>
       </body>
     </html>
   )

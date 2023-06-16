@@ -26,12 +26,6 @@ export default function Home() {
         </p>
         <PhotoGrid pictures={pictures} />
 
-        {/* <div className="relative overflow-hidden h-64"> Set height here
-        
-
-        <div className="text-lg">
-          <Menu sections={sections} />
-        </div> */}
       </div>
     </div>
   );
