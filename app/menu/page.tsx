@@ -36,7 +36,7 @@ const sections = [
       ],
     },
   ];
-export default function Home() {
+export default function MenuPage() {
 
   return (
     <div className="bg-lightTan min-h-screen">

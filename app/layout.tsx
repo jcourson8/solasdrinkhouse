@@ -1,5 +1,6 @@
 import './globals.css'
 import { Inter, IBM_Plex_Mono } from 'next/font/google'
+import DropdownMenu from './components/DropdownMenu'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -30,6 +31,7 @@ export default function RootLayout({
           <div className='text-dark mx-auto px-4 pt-4 bg-lightTan w-full'>
             <div><p className="text-4xl font-plex italic">THANKS FOR</p></div>
             <div><p className="text-4xl font-plex italic text-right">STOPPING BY</p></div>
+            <DropdownMenu />
           </div>
         {children}
       </body>

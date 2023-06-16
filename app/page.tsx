@@ -21,7 +21,7 @@ export default function Home() {
         <title>Solas</title>
       </Head>
       <div className="w-full text-dark mx-auto px-4 pt-4">
-        <p className="font-plex text-lg mt-4">
+        <p className="font-plex text-lg mb-2">
           Solas is here for you! We strive to be everything you love about a local coffee shop, but wherever you want us. We know you like to have fun and so do we! Let us know where you’d like to see us next.
         </p>
         <PhotoGrid pictures={pictures} />
