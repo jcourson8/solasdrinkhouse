@@ -8,7 +8,7 @@ const Menu = ({ sections }) => {
   return (
     <div className="px-3 font-plex pt-2">
         <div className="flex justify-center">
-            {/* <div className="text-2xl font-plex italic py-4">"Solas Has Coffee"</div> */}
+            <div className="text-2xl font-plex italic pb-4">"Solas Has Coffee"</div>
             
             {/* <img
             src="/pictures/solashascoffee.png"
