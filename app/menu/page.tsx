@@ -9,7 +9,7 @@ const sections = [
       sectionName: 'Coffee',
       items: [
         { name: 'Latte', price: '6', isHotOrIced: true },
-        { name: 'Cappuchino', price: '4', isHotOrIced: true },
+        { name: 'Cappuccino', price: '4', isHotOrIced: true },
         { name: 'Cortado', price: '4', isHotOrIced: false },
         { name: 'Espresso', price: '3', isHotOrIced: false },
         { name: 'Americano', price: '5', isHotOrIced: true },
