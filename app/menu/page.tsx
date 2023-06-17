@@ -33,7 +33,7 @@ const sections = [
     {
       sectionName: 'Alternative',
       items: [
-        { name: 'Oat', price: '', isHotOrIced: false },
+        { name: 'Oat Milk', price: '', isHotOrIced: false },
       ],
     },
   ];
