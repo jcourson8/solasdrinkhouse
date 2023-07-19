@@ -19,7 +19,7 @@ const sections = [
     {
       sectionName: 'Other',
       items: [
-        { name: 'Matcha', price: '', isHotOrIced: true },
+        { name: 'Sweet Matcha', price: '', isHotOrIced: true },
       ],
     },
     {
