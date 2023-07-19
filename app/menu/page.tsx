@@ -8,18 +8,18 @@ const sections = [
     {
       sectionName: 'Coffee',
       items: [
-        { name: 'Latte', price: '6', isHotOrIced: true },
-        { name: 'Cappuccino', price: '4', isHotOrIced: true },
-        { name: 'Cortado', price: '4', isHotOrIced: false },
-        { name: 'Espresso', price: '3', isHotOrIced: false },
-        { name: 'Americano', price: '4', isHotOrIced: true },
+        { name: 'Latte', price: '', isHotOrIced: true },
+        { name: 'Cappuccino', price: '', isHotOrIced: true },
+        { name: 'Cortado', price: '', isHotOrIced: false },
+        { name: 'Espresso', price: '', isHotOrIced: false },
+        { name: 'Americano', price: '', isHotOrIced: true },
         // { name: 'Cold Brew', price: '5', isHotOrIced: false },
       ],
     },
     {
       sectionName: 'Other',
       items: [
-        { name: 'Matcha', price: '6', isHotOrIced: true },
+        { name: 'Matcha', price: '', isHotOrIced: true },
       ],
     },
     {
