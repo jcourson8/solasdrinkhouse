@@ -12,8 +12,8 @@ const sections = [
         { name: 'Cappuccino', price: '4', isHotOrIced: true },
         { name: 'Cortado', price: '4', isHotOrIced: false },
         { name: 'Espresso', price: '3', isHotOrIced: false },
-        { name: 'Americano', price: '5', isHotOrIced: true },
-        { name: 'Cold Brew', price: '5', isHotOrIced: false },
+        { name: 'Americano', price: '4', isHotOrIced: true },
+        // { name: 'Cold Brew', price: '5', isHotOrIced: false },
       ],
     },
     {
@@ -25,7 +25,8 @@ const sections = [
     {
       sectionName: 'Add',
       items: [
-        { name: 'Caramel', price: '', isHotOrIced: false },
+        // { name: 'Caramel', price: '', isHotOrIced: false },
+        { name: 'Brown Sugar', price: '', isHotOrIced: false },
         { name: 'Honey & Cinnamon', price: '', isHotOrIced: false },
         { name: 'Vanilla', price: '', isHotOrIced: false },
       ],
